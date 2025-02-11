@@ -9,7 +9,7 @@ topnav_title: Haiderali kazi
 site_title: q/kdb+ blog
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright Haiderali kazi
+company_name: "© {{ site.time | date: '%Y' }} Haiderali Kazi"
 # this appears in the footer
 
 github_editme_path: haideralikazi/qkdb/blob/main/
