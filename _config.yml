@@ -1,4 +1,4 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: haideralikazi/qkdb
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,13 +12,13 @@ site_title: q/kdb+ blog
 company_name: Copyright Haiderali kazi
 # this appears in the footer
 
-github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+github_editme_path: haideralikazi/qkdb/blob/main/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-google_analytics: UA-66296557-1
+google_analytics: ""
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
@@ -33,9 +33,9 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+feedback_subject_line: qkdb blog
 
-feedback_email: tomjoht@gmail.com
+feedback_email: haideralikazi8@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -113,7 +113,7 @@ description: "q/kdb+ technical blog"
 # url: http://idratherbewriting.com
 # baseurl: /documentation-theme-jekyll
 url: "https://haideralikazi.github.io/qkdb"
-baseurl: "https://haideralikazi.github.io/qkdb"
+baseurl: "/qkdb"
 
 github: [metadata]
 
