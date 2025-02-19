@@ -1,47 +1,112 @@
 entries:
-  - title: "q/kdb+"
-    product: qkdb
-    folders:
-      - title: "KDB+ Topics"
-        output: web
-        folderitems:
-          - title: "Overview"
-            url: /qkdb/overview.html
-          - title: "Architecture"
-            url: /qkdb/architecture.html
-          - title: "Q Programming"
-            url: /qkdb/q-programming.html
-          - title: "Type Casting"
-            url: /qkdb/type-casting.html
-          - title: "Temporal Data"
-            url: /qkdb/temporal-data.html
-          - title: "Lists"
-            url: /qkdb/lists.html
-          - title: "Indexing"
-            url: /qkdb/indexing.html
-          - title: "Dictionaries"
-            url: /qkdb/dictionaries.html
-          - title: "Table"
-            url: /qkdb/table.html
-          - title: "Joins"
-            url: /qkdb/joins.html
-          - title: "Functions"
-            url: /qkdb/functions.html
-          - title: "Queries"
-            url: /qkdb/queries.html
-          - title: "IPC"
-            url: /qkdb/ipc.html
-          - title: "Message Handler"
-            url: /qkdb/message-handler.html
-          - title: "Attributes"
-            url: /qkdb/attributes.html
-          - title: "Functional Queries"
-            url: /qkdb/functional-queries.html
-          - title: "Table Arithmetic"
-            url: /qkdb/table-arithmetic.html
-          - title: "Tables on Disk"
-            url: /qkdb/tables-on-disk.html
-          - title: "Maintenance Functions"
-            url: /qkdb/maintenance-functions.html
-          - title: "FAQs"
-            url: /qkdb/faqs.html
+- title: sidebar
+  product: q/kdb+
+  version: 1.0
+  folders:
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+    - title: KDB+ Overview
+      url: /qkdb/overview.html
+      output: web, pdf
+    - title: Background
+      url: /qkdb/background.html
+      output: web, pdf
+    - title: Why and Where to Use KDB+
+      url: /qkdb/why_kdb.html
+      output: web, pdf
+    - title: Getting Started
+      url: /qkdb/getting_started.html
+      output: web, pdf
+
+  - title: Architecture
+    output: web, pdf
+    folderitems:
+    - title: KDB+ Tick Architecture
+      url: /qkdb/tick_architecture.html
+      output: web, pdf
+    - title: Components of KDB+ Tick Architecture
+      url: /qkdb/components_tick_architecture.html
+      output: web, pdf
+
+  - title: Q Programming Language
+    output: web, pdf
+    folderitems:
+    - title: Starting the "q" Environment
+      url: /qkdb/q_environment.html
+      output: web, pdf
+    - title: Data Types
+      url: /qkdb/data_types.html
+      output: web, pdf
+    - title: Atom and List Formation
+      url: /qkdb/atom_list.html
+      output: web, pdf
+
+  - title: Type Casting
+    output: web, pdf
+    folderitems:
+    - title: Casting Integers to Floats
+      url: /qkdb/casting_int_float.html
+      output: web, pdf
+    - title: Casting Strings to Symbols
+      url: /qkdb/casting_string_symbol.html
+      output: web, pdf
+    - title: Casting Strings to Non-Symbols
+      url: /qkdb/casting_string_nonsymbol.html
+      output: web, pdf
+
+  - title: Temporal Data
+    output: web, pdf
+    folderitems:
+    - title: Date
+      url: /qkdb/date.html
+      output: web, pdf
+    - title: Times
+      url: /qkdb/times.html
+      output: web, pdf
+    - title: Datetimes
+      url: /qkdb/datetimes.html
+      output: web, pdf
+
+  - title: Lists
+    output: web, pdf
+    folderitems:
+    - title: Types of Lists
+      url: /qkdb/types_of_lists.html
+      output: web, pdf
+
+  - title: Indexing
+    output: web, pdf
+    folderitems:
+    - title: Index Notation
+      url: /qkdb/index_notation.html
+      output: web, pdf
+    - title: Indexed Assignment
+      url: /qkdb/indexed_assignment.html
+      output: web, pdf
+    - title: Joining Lists
+      url: /qkdb/joining_lists.html
+      output: web, pdf
+    - title: Nesting
+      url: /qkdb/nesting.html
+      output: web, pdf
+    - title: Elided Indices
+      url: /qkdb/elided_indices.html
+      output: web, pdf
+
+  - title: Dictionaries
+    output: web, pdf
+    folderitems:
+    - title: Lookup
+      url: /qkdb/lookup.html
+      output: web, pdf
+    - title: Operations on Dictionaries
+      url: /qkdb/operations_on_dictionaries.html
+      output: web, pdf
+    - title: Column Dictionaries
+      url: /qkdb/column_dictionaries.html
+      output: web, pdf
+    - title: Flipping a Dictionary
+      url: /qkdb/flipping_dictionary.html
+      output: web, pdf
