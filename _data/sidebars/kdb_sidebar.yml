@@ -1,0 +1,47 @@
+entries:
+  - title: "q/kdb+"
+    product: qkdb
+    folders:
+      - title: "KDB+ Topics"
+        output: web
+        folderitems:
+          - title: "Overview"
+            url: /qkdb/overview.html
+          - title: "Architecture"
+            url: /qkdb/architecture.html
+          - title: "Q Programming"
+            url: /qkdb/q-programming.html
+          - title: "Type Casting"
+            url: /qkdb/type-casting.html
+          - title: "Temporal Data"
+            url: /qkdb/temporal-data.html
+          - title: "Lists"
+            url: /qkdb/lists.html
+          - title: "Indexing"
+            url: /qkdb/indexing.html
+          - title: "Dictionaries"
+            url: /qkdb/dictionaries.html
+          - title: "Table"
+            url: /qkdb/table.html
+          - title: "Joins"
+            url: /qkdb/joins.html
+          - title: "Functions"
+            url: /qkdb/functions.html
+          - title: "Queries"
+            url: /qkdb/queries.html
+          - title: "IPC"
+            url: /qkdb/ipc.html
+          - title: "Message Handler"
+            url: /qkdb/message-handler.html
+          - title: "Attributes"
+            url: /qkdb/attributes.html
+          - title: "Functional Queries"
+            url: /qkdb/functional-queries.html
+          - title: "Table Arithmetic"
+            url: /qkdb/table-arithmetic.html
+          - title: "Tables on Disk"
+            url: /qkdb/tables-on-disk.html
+          - title: "Maintenance Functions"
+            url: /qkdb/maintenance-functions.html
+          - title: "FAQs"
+            url: /qkdb/faqs.html
