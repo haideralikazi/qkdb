@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "KDB+ Overview"
-permalink: /qkdb/overview/
+permalink: /qkdb/overview.html
 sidebar: kdb_sidebar
 ---
 
