@@ -25,7 +25,7 @@ topnav_dropdowns:
     - title: Products
       folderitems:
         - title: q/kdb+
-          url: /qkdb/overview.html 
+          url: /overview.html
         - title: Jekyll Documentation Theme
           url: /mydoc_introduction.html
         - title: Product 1
