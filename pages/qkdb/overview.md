@@ -1,8 +1,8 @@
 ---
-layout: page
 title: "KDB+ Overview"
 permalink: overview.html
 sidebar: kdb_sidebar
+folder: qkdb
 ---
 
 ## Introduction to KDB+
