@@ -1,5 +1,6 @@
 entries:
   - title: "q/kdb+"
+    product: qkdb
     folders:
       - title: "Overview"
         output: web
