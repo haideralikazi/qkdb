@@ -105,6 +105,7 @@ sidebars:
 - product1_sidebar
 - product2_sidebar
 - other
+- kdb_sidebar
 
 description: "q/kdb+ technical blog"
 # the description is used in the feed.xml file
