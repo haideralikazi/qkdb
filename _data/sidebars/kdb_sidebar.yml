@@ -1,112 +1,265 @@
 entries:
 - title: sidebar
   product: q/kdb+
-  version: 1.0
   folders:
 
-  - title: Overview
+  - title: KDB+ Overview
     output: web, pdf
     folderitems:
-    - title: KDB+ Overview
-      url: /qkdb/overview.html
-      output: web, pdf
-    - title: Background
-      url: /qkdb/background.html
-      output: web, pdf
-    - title: Why and Where to Use KDB+
-      url: /qkdb/why_kdb.html
-      output: web, pdf
-    - title: Getting Started
-      url: /qkdb/getting_started.html
-      output: web, pdf
+      - title: Background
+        url: /overview.html
+        output: web, pdf
+      - title: Why and Where to Use KDB+
+        url: /overview.html
+        output: web, pdf
+      - title: Getting Started
+        url: /overview.html
+        output: web, pdf
 
-  - title: Architecture
+  - title: KDB+ Architecture
     output: web, pdf
     folderitems:
-    - title: KDB+ Tick Architecture
-      url: /qkdb/tick_architecture.html
-      output: web, pdf
-    - title: Components of KDB+ Tick Architecture
-      url: /qkdb/components_tick_architecture.html
-      output: web, pdf
+      - title: Kdb+/tick Architecture
+        url: /architecture.html
+        output: web, pdf
+      - title: Components of Kdb+ Tick Architecture
+        url: /architecture.html
+        output: web, pdf
 
   - title: Q Programming Language
     output: web, pdf
     folderitems:
-    - title: Starting the "q" Environment
-      url: /qkdb/q_environment.html
-      output: web, pdf
-    - title: Data Types
-      url: /qkdb/data_types.html
-      output: web, pdf
-    - title: Atom and List Formation
-      url: /qkdb/atom_list.html
-      output: web, pdf
+      - title: Starting the “q” Environment
+        url: /q-programming.html
+        output: web, pdf
+      - title: Data Types
+        url: /q-programming.html
+        output: web, pdf
+      - title: Atom and List Formation
+        url: /q-programming.html
+        output: web, pdf
 
   - title: Type Casting
     output: web, pdf
     folderitems:
-    - title: Casting Integers to Floats
-      url: /qkdb/casting_int_float.html
-      output: web, pdf
-    - title: Casting Strings to Symbols
-      url: /qkdb/casting_string_symbol.html
-      output: web, pdf
-    - title: Casting Strings to Non-Symbols
-      url: /qkdb/casting_string_nonsymbol.html
-      output: web, pdf
+      - title: Casting Integers to Floats
+        url: /type-casting.html
+        output: web, pdf
+      - title: Casting Strings to Symbols
+        url: /type-casting.html
+        output: web, pdf
+      - title: Casting Strings to Non-Symbols
+        url: /type-casting.html
+        output: web, pdf
 
   - title: Temporal Data
     output: web, pdf
     folderitems:
-    - title: Date
-      url: /qkdb/date.html
-      output: web, pdf
-    - title: Times
-      url: /qkdb/times.html
-      output: web, pdf
-    - title: Datetimes
-      url: /qkdb/datetimes.html
-      output: web, pdf
+      - title: Date
+        url: /temporal-data.html
+        output: web, pdf
+      - title: Times
+        url: /temporal-data.html
+        output: web, pdf
+      - title: Datetimes
+        url: /temporal-data.html
+        output: web, pdf
 
   - title: Lists
     output: web, pdf
     folderitems:
-    - title: Types of Lists
-      url: /qkdb/types_of_lists.html
-      output: web, pdf
+      - title: Types of Lists
+        url: /lists.html
+        output: web, pdf
 
   - title: Indexing
     output: web, pdf
     folderitems:
-    - title: Index Notation
-      url: /qkdb/index_notation.html
-      output: web, pdf
-    - title: Indexed Assignment
-      url: /qkdb/indexed_assignment.html
-      output: web, pdf
-    - title: Joining Lists
-      url: /qkdb/joining_lists.html
-      output: web, pdf
-    - title: Nesting
-      url: /qkdb/nesting.html
-      output: web, pdf
-    - title: Elided Indices
-      url: /qkdb/elided_indices.html
-      output: web, pdf
+      - title: Index Notation
+        url: /indexing.html
+        output: web, pdf
+      - title: Indexed Assignment
+        url: /indexing.html
+        output: web, pdf
+      - title: Joining Lists
+        url: /indexing.html
+        output: web, pdf
+      - title: Nesting
+        url: /indexing.html
+        output: web, pdf
+      - title: Elided Indices
+        url: /indexing.html
+        output: web, pdf
 
   - title: Dictionaries
     output: web, pdf
     folderitems:
-    - title: Lookup
-      url: /qkdb/lookup.html
-      output: web, pdf
-    - title: Operations on Dictionaries
-      url: /qkdb/operations_on_dictionaries.html
-      output: web, pdf
-    - title: Column Dictionaries
-      url: /qkdb/column_dictionaries.html
-      output: web, pdf
-    - title: Flipping a Dictionary
-      url: /qkdb/flipping_dictionary.html
-      output: web, pdf
+      - title: Lookup
+        url: /dictionaries.html
+        output: web, pdf
+      - title: Operations on Dictionaries
+        url: /dictionaries.html
+        output: web, pdf
+      - title: Column Dictionaries
+        url: /dictionaries.html
+        output: web, pdf
+      - title: Flipping a Dictionary
+        url: /dictionaries.html
+        output: web, pdf
+
+  - title: Table
+    output: web, pdf
+    folderitems:
+      - title: Creating Tables
+        url: /table.html
+        output: web, pdf
+      - title: Getting Table Information
+        url: /table.html
+        output: web, pdf
+      - title: Primary Keys and Keyed Tables
+        url: /table.html
+        output: web, pdf
+      - title: Manipulating Tables
+        url: /table.html
+        output: web, pdf
+
+  - title: Verb & Adverbs
+    output: web, pdf
+    folderitems:
+      - title: Each
+        url: /verb-adverbs.html
+        output: web, pdf
+      - title: Each-Left and Each-Right
+        url: /verb-adverbs.html
+        output: web, pdf
+
+  - title: Joins
+    output: web, pdf
+    folderitems:
+      - title: Simple Join
+        url: /joins.html
+        output: web, pdf
+      - title: Asof Join (aj)
+        url: /joins.html
+        output: web, pdf
+      - title: Left Join (lj)
+        url: /joins.html
+        output: web, pdf
+      - title: Union Join (uj)
+        url: /joins.html
+        output: web, pdf
+
+  - title: Functions
+    output: web, pdf
+    folderitems:
+      - title: Types of Functions
+        url: /functions.html
+        output: web, pdf
+      - title: Frequently Used Functions
+        url: /functions.html
+        output: web, pdf
+      - title: System Commands
+        url: /functions.html
+        output: web, pdf
+
+  - title: Built-in Functions
+    output: web, pdf
+    folderitems:
+      - title: String Functions
+        url: /built-in-functions.html
+        output: web, pdf
+      - title: Mathematical Functions
+        url: /built-in-functions.html
+        output: web, pdf
+      - title: Aggregate Functions
+        url: /built-in-functions.html
+        output: web, pdf
+      - title: Uniform Functions
+        url: /built-in-functions.html
+        output: web, pdf
+      - title: Miscellaneous Functions
+        url: /built-in-functions.html
+        output: web, pdf
+
+  - title: Queries
+    output: web, pdf
+    folderitems:
+      - title: Basics Queries
+        url: /queries.html
+        output: web, pdf
+      - title: Queries with Constraints
+        url: /queries.html
+        output: web, pdf
+      - title: Queries with Aggregations
+        url: /queries.html
+        output: web, pdf
+
+  - title: Inter-Process Communication
+    output: web, pdf
+    folderitems:
+      - title: Initialize Server
+        url: /ipc.html
+        output: web, pdf
+      - title: Communication Handle
+        url: /ipc.html
+        output: web, pdf
+      - title: Synchronous and Asynchronous Messages
+        url: /ipc.html
+        output: web, pdf
+
+  - title: Message Handler (.z Library)
+    output: web, pdf
+    folderitems:
+      - title: Predefined Message Handlers
+        url: /message-handler.html
+        output: web, pdf
+
+  - title: Attributes
+    output: web, pdf
+    folderitems:
+      - title: Types of Attributes
+        url: /attributes.html
+        output: web, pdf
+
+  - title: Functional Queries
+    output: web, pdf
+    folderitems:
+      - title: Functional select
+        url: /functional-queries.html
+        output: web, pdf
+      - title: Functional exec
+        url: /functional-queries.html
+        output: web, pdf
+      - title: Functional update
+        url: /functional-queries.html
+        output: web, pdf
+      - title: Functional delete
+        url: /functional-queries.html
+        output: web, pdf
+
+  - title: Table Arithmetic
+    output: web, pdf
+    folderitems:
+      - title: Arithmetic Operations on Tables
+        url: /table-arithmetic.html
+        output: web, pdf
+
+  - title: Tables on Disk
+    output: web, pdf
+    folderitems:
+      - title: Flat file
+        url: /tables-on-disk.html
+        output: web, pdf
+      - title: Splayed Tables
+        url: /tables-on-disk.html
+        output: web, pdf
+      - title: Partitioned Tables
+        url: /tables-on-disk.html
+        output: web, pdf
+
+  - title: FAQs
+    output: web, pdf
+    folderitems:
+      - title: Frequently Asked Questions
+        url: /faqs.html
+        output: web, pdf
