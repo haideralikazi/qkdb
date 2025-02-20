@@ -8,7 +8,7 @@ sidebar: kdb_sidebar
 
 Kdb+ is designed to efficiently store and process **time-series data** by utilizing a **columnar data structure** and in-memory computing. The architecture consists of three main components:
 
-![KDB+ Tick Architecture](/images/kdb_architecture.jpg)
+![KDB+ Tick Architecture](/images/kdb_architecture.png)
 
 ## **1. Tickerplant (TP)**  
 The tickerplant is responsible for receiving, processing, and distributing **real-time data feeds**. It:
