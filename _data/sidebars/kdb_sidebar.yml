@@ -10,10 +10,10 @@ entries:
         url: background.html
         output: web, pdf
       - title: Why and Where to Use KDB+
-        url: why-kdb.html
+        url: why_kdb.html
         output: web, pdf
       - title: Getting Started
-        url: getting-started.html
+        url: getting_started.html
         output: web, pdf
 
   - title: KDB+ Architecture
@@ -30,39 +30,39 @@ entries:
     output: web, pdf
     folderitems:
       - title: Starting the “q” Environment
-        url: /q-programming.html
+        url: /q_programming.html
         output: web, pdf
       - title: Data Types
-        url: /q-programming.html
+        url: /q_programming.html
         output: web, pdf
       - title: Atom and List Formation
-        url: /q-programming.html
+        url: /q_programming.html
         output: web, pdf
 
   - title: Type Casting
     output: web, pdf
     folderitems:
       - title: Casting Integers to Floats
-        url: /type-casting.html
+        url: /type_casting.html
         output: web, pdf
       - title: Casting Strings to Symbols
-        url: /type-casting.html
+        url: /type_casting.html
         output: web, pdf
       - title: Casting Strings to Non-Symbols
-        url: /type-casting.html
+        url: /type_casting.html
         output: web, pdf
 
   - title: Temporal Data
     output: web, pdf
     folderitems:
       - title: Date
-        url: /temporal-data.html
+        url: /temporal_data.html
         output: web, pdf
       - title: Times
-        url: /temporal-data.html
+        url: /temporal_data.html
         output: web, pdf
       - title: Datetimes
-        url: /temporal-data.html
+        url: /temporal_data.html
         output: web, pdf
 
   - title: Lists
@@ -127,10 +127,10 @@ entries:
     output: web, pdf
     folderitems:
       - title: Each
-        url: /verb-adverbs.html
+        url: /verb_adverbs.html
         output: web, pdf
       - title: Each-Left and Each-Right
-        url: /verb-adverbs.html
+        url: /verb_adverbs.html
         output: web, pdf
 
   - title: Joins
@@ -166,19 +166,19 @@ entries:
     output: web, pdf
     folderitems:
       - title: String Functions
-        url: /built-in-functions.html
+        url: /built_in_functions.html
         output: web, pdf
       - title: Mathematical Functions
-        url: /built-in-functions.html
+        url: /built_in_functions.html
         output: web, pdf
       - title: Aggregate Functions
-        url: /built-in-functions.html
+        url: /built_in_functions.html
         output: web, pdf
       - title: Uniform Functions
-        url: /built-in-functions.html
+        url: /built_in_functions.html
         output: web, pdf
       - title: Miscellaneous Functions
-        url: /built-in-functions.html
+        url: /built_in_functions.html
         output: web, pdf
 
   - title: Queries
@@ -211,7 +211,7 @@ entries:
     output: web, pdf
     folderitems:
       - title: Predefined Message Handlers
-        url: /message-handler.html
+        url: /message_handler.html
         output: web, pdf
 
   - title: Attributes
@@ -225,36 +225,36 @@ entries:
     output: web, pdf
     folderitems:
       - title: Functional select
-        url: /functional-queries.html
+        url: /functional_queries.html
         output: web, pdf
       - title: Functional exec
-        url: /functional-queries.html
+        url: /functional_queries.html
         output: web, pdf
       - title: Functional update
-        url: /functional-queries.html
+        url: /functional_queries.html
         output: web, pdf
       - title: Functional delete
-        url: /functional-queries.html
+        url: /functional_queries.html
         output: web, pdf
 
   - title: Table Arithmetic
     output: web, pdf
     folderitems:
       - title: Arithmetic Operations on Tables
-        url: /table-arithmetic.html
+        url: /table_arithmetic.html
         output: web, pdf
 
   - title: Tables on Disk
     output: web, pdf
     folderitems:
       - title: Flat file
-        url: /tables-on-disk.html
+        url: /tables_on_disk.html
         output: web, pdf
       - title: Splayed Tables
-        url: /tables-on-disk.html
+        url: /tables_on_disk.html
         output: web, pdf
       - title: Partitioned Tables
-        url: /tables-on-disk.html
+        url: /tables_on_disk.html
         output: web, pdf
 
   - title: FAQs
