@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-permalink: /overview/getting-started.html
+permalink: /overview/getting_started.html
 sidebar: kdb_sidebar
 ---
 
