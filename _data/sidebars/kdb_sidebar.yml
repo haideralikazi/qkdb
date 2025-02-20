@@ -7,13 +7,13 @@ entries:
     output: web, pdf
     folderitems:
       - title: Background
-        url: /overview/background.html
+        url: background.html
         output: web, pdf
       - title: Why and Where to Use KDB+
-        url: /overview/why-kdb.html
+        url: why-kdb.html
         output: web, pdf
       - title: Getting Started
-        url: /overview/getting-started.html
+        url: getting-started.html
         output: web, pdf
 
   - title: KDB+ Architecture
