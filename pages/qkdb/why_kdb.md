@@ -1,6 +1,6 @@
 ---
 title: Why and Where to Use KDB+
-permalink: /overview/why_kdb.html
+permalink: /why_kdb.html
 sidebar: kdb_sidebar
 ---
 
